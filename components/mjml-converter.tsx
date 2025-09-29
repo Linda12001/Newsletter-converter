@@ -295,7 +295,7 @@ export function NewsletterCreator() {
         </div>
 
         <div className="mt-8 text-center text-sm text-muted-foreground">
-          <p>Created By Aymane Bouhantit CMHy</p>
+          <p>Created By Aymane Bouhantit CMH</p>
         </div>
       </div>
     </div>
