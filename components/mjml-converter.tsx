@@ -9,38 +9,66 @@ import { Download, Eye, Code2, Mail, Copy, Check } from "lucide-react"
 
 const defaultNewsletter = `<mjml>
   <mj-head>
-    <mj-title>Linda - let's plan for success 9UTGFI0VVCRR JGE7GV6HJMH1= JGE7GV6HJMH1=</mj-title>
-    <mj-preview>Checking in — here to help</mj-preview>
+    <mj-title>Harbor Freight - Bauer 6-Tool Combo Kit</mj-title>
+    <mj-preview>Claim your Bauer 6-Tool Combo Kit today!</mj-preview>
     <mj-attributes>
-      <mj-all font-family="Arial, Helvetica, sans-serif" font-size="16px" line-height="1.4" />
-      <mj-text color="#000000" />
+      <mj-all font-family="Arial, sans-serif" />
+      <mj-text font-size="16px" line-height="24px" color="#000000" />
     </mj-attributes>
   </mj-head>
 
   <mj-body background-color="#ffffff">
-    <mj-section padding="20px">
+
+    <!-- HEADER (RED) -->
+    <mj-section background-color="#d52b1e" padding="20px">
       <mj-column>
-        <mj-text>
-          Hey Linda,
+        <mj-text align="center" font-size="14px" color="#ffffff">
+          - Survey About -
         </mj-text>
-
-        <mj-text>
-          It's been a while since we spoke and I was wondering if there was anything I could do to help you out. I'm here to lend a hand and work together to reach our goals.
+        <mj-text align="center" font-size="28px" font-weight="bold" color="#ffffff">
+          Harbor Freight
         </mj-text>
-
-        <mj-text>
-          Let me know if there's anything I can do.
+        <mj-text align="center" font-size="24px" font-weight="bold" color="#ffffff" padding-top="10px">
+          CONGRATULATIONS!
         </mj-text>
-
-        <mj-text>
-          Best,<br/>Shyam
-        </mj-text>
-
-        <mj-text>
-          9UTGFI0VVCRR JGE7GV6HJMH1
+        <mj-text align="center" font-size="20px" font-weight="bold" color="#ffffff">
+          CLAIM YOUR BAUER 6-TOOL COMBO KIT TODAY
         </mj-text>
       </mj-column>
     </mj-section>
+
+    <!-- BODY (WHITE) -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-text align="center" font-size="20px" font-weight="bold" color="#000000" padding-bottom="10px">
+          Your Bauer 6-Tool Combo Kit Awaits!
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="#000000">
+          We're thrilled to announce that you've been selected as a winner!  
+          To show our appreciation, we're gifting you a brand-new Bauer 6-Tool Combo Kit.
+        </mj-text>
+        <mj-button background-color="#0047ab" color="#ffffff" font-size="16px" font-weight="bold" href="#">
+          CLAIM YOUR REWARD
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" />
+        <mj-text font-size="12px" color="#777777" align="center">
+          If you no longer wish to receive these emails, you may unsubscribe by clicking 
+          <a href="#" style="color:#0047ab;">here</a>.
+        </mj-text>
+        <mj-text font-size="12px" color="#555555" align="center">
+          <strong>Affordable Refund Guidance</strong> - 3164 21st St Long Island City, NY 11106 United States <br/>
+          If you don't want to receive this type of message, you can 
+          <a href="#" style="color:#0047ab;">unsubscribe</a> from this list.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
   </mj-body>
 </mjml>`
 
